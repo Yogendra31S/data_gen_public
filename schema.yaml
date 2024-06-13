@@ -61,6 +61,9 @@
 #         table: product_table
 #         column: site_no
 #     # Define other columns...
+# valid_types = ['string', 'int', 'float', 'decimal', 'datetime', 'dependent']
+# valid_fake_types = ['name', 'random_element', 'boolean', 'word', 'uuid', 'company', 'product_name', 'month', 'code', 'email', 'state', 'city', 'country', 'county']
+
 
 dimension_table_1:
   count: 50

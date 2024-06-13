@@ -20,3 +20,9 @@ Mock files gets generated in data folder
 Profiling files gets generated in data_report folder
 
 logs files get update in Lods folder 
+
+
+
+Schema file 
+valid_types = ['string', 'int', 'float', 'decimal', 'datetime', 'dependent']
+valid_fake_types = ['name', 'random_element', 'boolean', 'word', 'uuid', 'company', 'product_name', 'month', 'code', 'email', 'state', 'city', 'country', 'county']
