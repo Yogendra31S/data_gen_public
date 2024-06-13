@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  data-generator:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./data_reports:/app/data_reports
+      - ./logs:/app/logs
+      - ./schema.yaml:/app/schema.yaml  # Ensure the schema file is mounted
+    ports: 
+      - "4000:90"
+    command: python3 data_generation.py schema.yaml csv
